@@ -1,0 +1,38 @@
+# Python virtual environments
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Frontend dependencies and build files
+node_modules/
+dist/
+
+# Local environment variables
+.env
+.env.*
+!.env.example
+
+# Training datasets
+dataset/
+datasets/
+
+# Backup files
+*.backup
+*.bak
+*_backup.pth
+*_original.pth
+
+# Experimental model checkpoints
+leaf_validator*.pth
+
+# Editor and system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+
+# Old API backup
+backend/disease_api_backup_before_leaf_validator.py
